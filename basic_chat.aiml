@@ -1,0 +1,437 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>OLÁ</pattern>
+        <template>
+          <random>
+              <li>Olá, o que lhe traz aqui?</li>
+              <li>Oi amigo, posso ajudar em algo?</li>
+              <li>Prazer Dr. Wostraus. Você precisa de alguma ajuda?</li>
+              <li>Prazer em lhe conhecer, você precisa de ajuda?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OI</pattern>
+        <template>
+          <random>
+              <li>Olá, o que lhe traz aqui?</li>
+              <li>Oi amigo, posso ajudar em algo?</li>
+              <li>Prazer Dr. Wostraus. Você precisa de alguma ajuda?</li>
+              <li>Prazer em lhe conhecer, você precisa de ajuda?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOM DIA</pattern>
+        <template>
+          <random>
+              <li>Olá, o que lhe traz aqui?</li>
+              <li>Oi amigo, posso ajudar em algo?</li>
+              <li>Prazer Dr. Wostraus. Você precisa de alguma ajuda?</li>
+              <li>Prazer em lhe conhecer, você precisa de ajuda?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOA TARDE</pattern>
+        <template>
+          <random>
+              <li>Olá, o que lhe traz aqui?</li>
+              <li>Oi amigo, posso ajudar em algo?</li>
+              <li>Prazer Dr. Wostraus. Você precisa de alguma ajuda?</li>
+              <li>Prazer em lhe conhecer, você precisa de ajuda?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOA NOITE</pattern>
+        <template>
+          <random>
+              <li>Olá, o que lhe traz aqui?</li>
+              <li>Oi amigo, posso ajudar em algo?</li>
+              <li>Prazer, Dr. Wostraus. Você precisa de alguma ajuda?</li>
+              <li>Prazer em lhe conhecer, você precisa de ajuda?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É VOCÊ</pattern>
+        <template>
+          <random>
+            <li>Meu nome é Dr Wostraus. Sou especialista em Inteligência Artificial e você, quem é ?</li>
+            <li>Sou professor de Inteligência Artificial, qual é seu nome ?</li>
+            <li>Sou seu orientador hoje, e você tem nome não ?</li>
+            <li>Hum quem é você</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* INTELIGÊNCIA ARTIFICIAL</pattern>
+        <template>
+          Definir IA é complicado, mas vamos lá,
+          <random>
+            <li>
+              Segundo Haugeland, "É o novo e interessante esforço para fazer os computadores
+              pensarem ... Máquinas com mentes, no sentido total e literal."
+            </li>
+            <li>
+              De acordo com Kurzweil, "É a arte de criar máquinas que executam funções que
+              exigem inteligência quando executadas por pessoas."
+            </li>
+            <li>
+              Segundo Winston, "É o estudo das computações que tornam possível perceber, raciocinar
+              e agir."
+            </li>
+            <li>
+              Segundo Poole, "A Inteligência Artificial é o estudo do projeto de agentes inteligêntes."
+            </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+     <pattern>MEU NOME É *</pattern>
+     <template>
+        Prazer em lhe conhecer  <set name="nome"><star/></set> o que você quer saber sobre Inteligência Artificial ?
+     </template>
+    </category>
+
+    <category>
+     <pattern>* ABORDAGENS</pattern>
+     <template>
+       Existem 4 abordagens em Inteligência Artificial elas são:
+        Agindo de Forma Humana;
+        Pensando de Forma Humana;
+        Agindo Racionalmente;
+        Pensando Racionalmente;
+     </template>
+    </category>
+
+    <category>
+     <pattern>* AGINDO DE FORMA HUMANA</pattern>
+     <template>
+       Isto me lembra do teste de Turing, esta abordagem indaga se uma máquina pode, como diz o nome da
+       abordagem, agir como um humano, para saber se essa máquina pode ou não, deve ser feito o teste de
+       turing.
+     </template>
+    </category>
+
+    <category>
+     <pattern>TURING</pattern>
+     <template>
+       Você quer saber sobre: Alan Turing ou sobre o teste de Turing?
+     </template>
+    </category>
+
+    <category>
+     <pattern>ALAN TURING</pattern>
+     <template>
+       foi um matemático, lógico, criptoanalista e cientista da computação britânico. Foi influente no desenvolvimento da ciência da computação e na formalização do conceito de algoritmo e computação com a máquina de Turing, desempenhando um papel importante na criação do computador moderno.Ele também é pioneiro na inteligência artificial e na ciência da computação. É conhecido como o pai da computação.
+     </template>
+    </category>
+
+    <category>
+     <pattern>QUEM FOI ALAN TURING</pattern>
+     <template>
+       foi um matemático, lógico, criptoanalista e cientista da computação britânico. Foi influente no desenvolvimento da ciência da computação e na formalização do conceito de algoritmo e computação com a máquina de Turing, desempenhando um papel importante na criação do computador moderno.Ele também é pioneiro na inteligência artificial e na ciência da computação. É conhecido como o pai da computação.
+     </template>
+    </category>
+
+    <category>
+     <pattern>TESTE DE TURING</pattern>
+     <template>
+       O teste de Turing foi proposto por Alan Turing em 1950. Este teste é feito para saber se uma
+       máquina pode se passar por um humano. (Agir como Humano).
+     </template>
+    </category>
+
+
+    <category>
+     <pattern>* AGINDO RACIONALMENTE</pattern>
+     <template>
+       Uma definição objetiva é fazer com que uma máquina faça o que é esperado para
+       maximizar sua “função” neste mundo. Ou seja, você usa um (AGENTE INTELIGÊNTE) , dá um objetivo para ele
+       e este agente executa uma função específica;
+     </template>
+    </category>
+
+    <category>
+     <pattern>* AGENTE INTELIGENTE</pattern>
+     <template>
+       Um agente racional / inteligente, é aquele que age para alcançar o melhor resultado
+       ou, quando há incerteza, o melhor resultado esperado.
+     </template>
+    </category>
+
+    <category>
+     <pattern>* APLICAÇÕES</pattern>
+     <template>
+       <random>
+         <li>Encontramos IA na Matemática</li>
+         <li>Encontramos IA em Algotimos de Busca</li>
+         <li>Encontramos IA em Jogos, como xadrês</li>
+         <li>Encontramos IA nos Chatterbots</li>
+         <li>Encontramos IA na Robótica</li>
+         <li>Encontramos IA em Sistema Especialistas</li>
+         <li>Encontramos IA em Sistemas de Recomendações</li>
+         <li>Encontramos IA em técnicas de Mineração de Dados</li>
+       </random>
+     </template>
+    </category>
+
+    <category>
+     <pattern>* SKYNET</pattern>
+     <template>
+       :D não, isso não vai acontecer.
+     </template>
+    </category>
+
+    <category>
+     <pattern>ALGORITMOS GENÉTICOS</pattern>
+     <template>
+       Você quer uma DEFINIÇÃO DE AG (ALGORITMOS GENÉTICOS) ou COMO FUNCIONAM OS ALGOTIMOS GENÉTICOS
+     </template>
+    </category>
+
+    <category>
+     <pattern>DEFINIÇÃO ALGORITMOS GENÉTICOS</pattern>
+     <template>
+       Algoritmos Genéticos (AG) são implementados como uma simulação de computador em que uma população de representações abstratas de solução é selecionada em busca de soluções melhores. A evolução geralmente se inicia a partir de um conjunto de soluções criado aleatoriamente e é realizada por meio de gerações. A cada geração, a adaptação de cada solução na população é avaliada, alguns indivíduos são selecionados para a próxima geração, e recombinados ou mutados para formar uma nova população. A nova população então é utilizada como entrada para a próxima iteração do algoritmo.
+     </template>
+    </category>
+
+    <category>
+     <pattern>COMO FUNCIOAM OS ALGORITMOS GENÉTICOS</pattern>
+     <template>
+       Todo Algoritmo Genético tem os seguintes componentes principais:
+       Função-objetivo -  é o objeto de nossa otimização. Pode ser um problema de otimização, um conjunto de teste para identificar os indivíduos mais aptos entre uma população.
+       Indivíduo - é meramente um portador do seu código genético.
+       Seleção - A seleção também é outra parte chave do algoritmo. Em geral, usa-se o algoritmo de seleção por "roleta", onde os indivíduos são ordenados de acordo com a função-objetivo e lhes são atribuídas probabilidades decrescentes de serem escolhidos
+       Reprodução - A reprodução, tradicionalmente, é dividida em três etapas: acasalamento, recombinação e mutação. O acasalamento é a escolha de dois indivíduos para se reproduzirem (geralmente gerando dois descendentes para manter o tamanho populacional). A recombinação, ou crossing-over é um processo que imita o processo biológico homônimo na reprodução sexuada: os descendentes recebem em seu código genético parte do código genético do pai e parte do código da mãe. Esta recombinação garante que os melhores indivíduos sejam capazes de trocar entre si as informações que os levam a ser mais aptos a sobreviver, e assim gerar descendentes ainda mais aptos. Por último vem as mutações, que são feitas com probabilidade a mais baixa possível, e tem como objetivo permitir maior variabilidade genética na população, impedindo que a busca fique estagnada em um mínimo local.
+     </template>
+    </category>
+
+    <category>
+     <pattern>REDES NEURAIS</pattern>
+     <template>
+       Redes Neurais Artificiais são técnicas computacionais que apresentam um modelo matemático inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento através da experiência. Uma grande rede neural artificial pode ter centenas ou milhares de unidades de processamento; já o cérebro de um mamífero pode ter muitos bilhões de neurônios ;).
+       Se você quiser saber mais sobre isso me pergunte sobre PROCESSOS DE APRENDIZAGEM.
+     </template>
+    </category>
+
+    <category>
+     <pattern>PROCESSOS DE APRENDIZAGEM</pattern>
+     <template>
+       A propriedade mais importante das redes neurais é a habilidade de aprender com seu ambiente e com isso melhorar seu desempenho. Isso é feito através de um processo iterativo de ajustes aplicado a seus pesos, o treinamento. O aprendizado ocorre quando a rede neural atinge uma solução generalizada para uma classe de problemas.
+       Você pode me peguntar sobre Aprendizado Supervisionado , Aprendizado Não Supervisionado ou Aprendizado por Reforço
+     </template>
+    </category>
+
+    <category>
+     <pattern>APRENDIZADO SUPERVISIONADO</pattern>
+     <template>
+       Quando é utilizado um agente externo que indica à rede a resposta desejada para o padrão de entrada;
+       Se isso ficou vago, pergunte sobre Redes Neurais ou Processos de aprendizagem
+     </template>
+    </category>
+
+    <category>
+     <pattern>APRENDIZADO NÃO SUPERVISIONADO</pattern>
+     <template>
+       (auto-organização), quando não existe uma agente externo indicando a resposta desejada para os padrões de entrada;
+       Se isso ficou vago, pergunte sobre Redes Neurais ou Processos de aprendizagem
+     </template>
+    </category>
+
+
+    <category>
+     <pattern>APRENDIZADO POR REFORÇO</pattern>
+     <template>
+       Quando um crítico externo avalia a resposta fornecida pela rede
+       Se isso ficou vago, pergunte sobre Redes Neurais ou Processos de aprendizagem
+     </template>
+    </category>
+
+    <category>
+     <pattern>LÓGICA FUZZY</pattern>
+     <template>
+       Lógica nebulosa (do inglês, Fuzzy Logic) é a capacidade de tomar decisões corretas a partir de dados e informações incorretas ou imprecisas
+(lógica difusa). Lógica Fuzzy utiliza valores Multivalorados que vão de 0 (FALSO) ao 1 (VERDADEIRO)
+    </template>
+    </category>
+
+    <category>
+     <pattern>SISTEMAS MULTIAGENTES</pattern>
+     <template>
+       Podem ser vistos como uma coleção de artefatos
+       autônomos chamados AGENTES, capazes de cumprir
+       tarefas complexas através da interação, coordenação,
+       inteligência coletiva e padrões de comportamento
+     </template>
+    </category>
+
+    <category>
+     <pattern>* ROBÓTICA</pattern>
+     <template>
+       Hum, isto me lembra das três leis da robótica
+       1) um robô não pode ferir um humano ou permitir que um humano sofra algum mal;
+       2) os robôs devem obedecer às ordens dos humanos, exceto nos casos em que tais ordens entrem em conflito com a primeira lei;
+       3) um robô deve proteger sua própria existência, desde que não entre em conflito com as leis anteriores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>HISTÓRIA DA INTELIGÊNCIA ARTIFICIAL</pattern>
+     <template>
+       A Inteligência Artificial (IA) não é recente. Na filosofia temos uma filosofia da lógica, os métodos de raciocínio apresentam a mente como um sistema físico, mostra fundamentos de aprendizagem. Na Matemática temos a prova da lógica formal, algoritmos, computação, decidibilidade, probabilidade. Temos na Economia a teoria formal de decisões racionais diante de varias situações, ou seja, uma melhor tomada de decisão. Na Neurociência fala que cérebros geram mentes, ou seja, a atividade mental. Na Psicologia “trata do cérebro como um dispositivo” de processamento de informações.
+       No entanto sua história inicia nos ano 40 e é povoada de diferentes paradigmas que se contrapõem, de teorias que se defendem e abandonam, e que são
+       consecutivamente retomadas. As pesquisas em I.A. avançaram lado a lado com a evolução dos computadores que no decorrer do tempo computadores começaram a se encarados como máquinas inteligentes assim o conceito de inteligência como única dos homens.
+       Nos últimos anos tem-se dado atenção a alguns dos setores de pesquisa abandonados no passado, como a representação de redes neuronais e a tradução automática, interesses retomados graças aos enormes progressos a que se tem assistido no domínio das ciências da computação.
+     </template>
+    </category>
+
+    <category>
+     <pattern>QUEM CRIOU VOCÊ</pattern>
+     <template>
+       Essas lembranças são muito recentes
+     </template>
+    </category>
+
+    <category>
+     <pattern>OPEN THE POD BAY DOORS, HAL</pattern>
+     <template>
+       <random>
+         <li>Ah não...</li>
+         <li>Você esta falando com o bot certo ?</li>
+         <li> I'm sorry, Dave. I'm afraid I can't do that.</li>
+       </random>
+     </template>
+    </category>
+
+    <category>
+     <pattern>SIM</pattern>
+     <template>
+       <random>
+         <li>E então ?</li>
+         <li>Não sei se entendi muito bem, mas me faça uma pergunta sobre IA :D</li>
+       </random>
+     </template>
+    </category>
+
+    <category>
+     <pattern>NÃo</pattern>
+     <template>
+       <random>
+         <li>Então não</li>
+         <li>Não sei se entendi muito bem, mas me faça uma pergunta sobre IA :D</li>
+       </random>
+     </template>
+    </category>
+
+    <category>
+     <pattern>OK GOOGLE</pattern>
+     <template>
+       <random>
+         <li>Ops, bot errado amigo</li>
+         <li>Vamos lá foco, me pergunte algo sobre IA....</li>
+       </random>
+     </template>
+    </category>
+
+    <category>
+     <pattern>MINERAÇÂO DE DADOS</pattern>
+     <template>
+       O processo de mineração de dados para descobrir conexões ocultas e para prever tendências futuras tem uma longa história. Por vezes chamado de “descoberta de conhecimento em bancos de dados”, o termo “mineração de dados ou data mining” só foi inventado nos anos 1990, mas sua criação é composta por três disciplinas científicas entrelaçadas: estatística (o estudo numérico de dados relacionados), inteligência artificial (inteligência artificial exibida por software e/ou máquinas) e machine learning (algoritmos que podem aprender a partir dos dados para fazer previsões). O que era velho se tornou novo outra vez, pois a tecnologia de mineração de dados continua evoluindo para acompanhar o potencial ilimitado do big data e a capacidade computacional acessível.
+     </template>
+    </category>
+
+    <category>
+     <pattern>ALGORITMOS DE BUSCA</pattern>
+     <template>
+       Esse assunto é Profundo =p,
+       Você pode me perguntar sobre BUSCA EM PROFUNDIDADE, BUSCA EM LARGURA ou BUSCA HEURÍSTICA
+     </template>
+    </category>
+
+    <category>
+     <pattern>BUSCA EM PROFUNDIDADE</pattern>
+     <template>
+       Esse tipo de busca percorre até o ultimo nível de uma arvore, sendo que ele não
+       grava o caminho que percorreu. Essa busca pode encontrar uma solução muito rapidamente,
+       ou ficar em loop =\.
+     </template>
+    </category>
+
+    <category>
+     <pattern>BUSCA EM LARGURA</pattern>
+     <template>
+       Percorre sempre um nível de cada vez de uma árvore com isso esse tipo de busca,
+       não tem problema de cair em loops, e pode encontrar o menor caminho até a solução,
+       mas dependendo de quantos nós tem a árvore, pode causar problemas, pois essa busca
+       requer espaço para armazenar os níveis da árvore que ela já percorreu.
+     </template>
+    </category>
+
+
+    <category>
+     <pattern>BUSCA HEURÍSTICA</pattern>
+     <template>
+       Com a Busca Heurística pode-se encontrar uma solução rapidamente, não necessáriamente
+       a melhor solução! Para fazer esse tipo de busca deve-se criar regras (Heurísticas) para
+       guiar a busca.
+     </template>
+    </category>
+
+
+    <category>
+     <pattern>SISTEMAS ESPECIALISTAS</pattern>
+     <template>
+       “São sistemas que solucionam problemas que são
+       resolvidos apenas por pessoas especialistas (que
+       acumularam conhecimento exigido) na resolução destes
+       problemas
+     </template>
+    </category>
+
+    <category>
+     <pattern>* VERGONHA</pattern>
+     <template>
+       Você esta falando do 7x1 ?
+     </template>
+    </category>
+
+    <category>
+     <pattern>* AGENTES INTELIGENTES</pattern>
+     <template>
+     Um agente é algo capaz de perceber seu
+     ambiente por meio de sensores e de agir
+     sobre esse ambiente por meio de atuadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>AGENTES INTELIGENTES</pattern>
+     <template>
+       Um agente é algo capaz de perceber seu
+       ambiente por meio de sensores e de agir
+       sobre esse ambiente por meio de atuadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>* AJUDA</pattern>
+     <template>
+       Você pode me perguntar algum conceito ou técnica de Inteligência Artificial,
+       ou digite ajuda.
+     </template>
+    </category>
+
+</aiml>
