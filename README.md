@@ -6,9 +6,23 @@ Este Chatterbot faz parte do trabalho de Inteligência Artificial do curso de
 Ciência da Computação da Universidade Regional Integrada (URI) Campus Erechim.
 
 Autor: Marcos Vinicius de Moura Lima
+
 Orientador: Prof Marcos A. Lucas
 
 Este chatterbot deverá ser executado em sistemas Linux com a versão do Python 2.7
+
+## Faça Download do projeto
+
+Olhe para o canto superior direito, aparecerá um botão para Download, você pode escolher
+ 
+### Fazer donwload usando o git
+Caso você tenha o git instalado basta digitar o seguinte comando:
+ ```
+ sudo git clone https://github.com/marcosvlima/DrWostraus.git
+ ```
+   
+### Download .zip
+Basta baixar o arquivo e extrair ele no seu computador
 
 ## Instalar Python versão 2.7
 
