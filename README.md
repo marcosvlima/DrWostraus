@@ -76,6 +76,28 @@ Agora você deve ir para seu navegador e acessar o caminho que apareceu no web s
 http://localhost:5000/
 ```
 
+## Algumas sentenças mapeadas
+
+- Definições de Inteligência Artificial
+- As 4 abordagens da Inteligência Artificial
+- A abordagem Agindo de Forma Humana
+- A abordagem Agindo Racionalmente
+- Quem foi Alan Turing
+- O que é o Teste de Turing
+- O que é um Agente Inteligênte
+- Quais são as Aplicações de IA
+- O que são Algoritmos Genéticos
+- Redes Neurais
+- Processos de aprendizagem
+- Lógica Fuzzy
+- Sistemas Multiagentes
+- História da Inteligência Artificial
+- Mineração de Dados
+- Algoritmos de Busca
+- E existem alguns easter eggs escondidos ;D"
+
+OBS: Nesta lista não conta todas as sentenças mapeadas, mas sim as principais.
+
 ## Algumas considerações:
 
 - Não digite as perguntas com ? (ponto de interrogação);
