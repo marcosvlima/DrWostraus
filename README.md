@@ -73,7 +73,7 @@ sudo checkinstall
 
 Agora você deve ir para seu navegador e acessar o caminho que apareceu no web service. Provavelmente ser:
 ```
-0
+http://localhost:5000/
 ```
 
 ## Algumas considerações:
