@@ -26,6 +26,13 @@ Basta baixar o arquivo e extrair ele no seu computador
 
 ## Instalar Python versão 2.7
 
+Primeiro você deve verificar se já possue o Python instalado, digite no seu terminal o seguinte comando:
+```
+python -V
+```
+
+Caso a resposta seja positiva, você pode passar para o próximo tópico.
+
 ### Dependencias python
 ```
 sudo apt-get install build-essential checkinstall
@@ -55,24 +62,24 @@ sudo checkinstall
 ## Instalar dependencias do projeto
 ```
   sudo apt install python-pip
-  pip install aiml
-```
-
-## Para instalar baixa esse projeto você deve digitar o seguinte comando no seu terminal
-```
-git clone https://github.com/marcosvlima/DrWostraus.git
+  sudo pip install flask
+  sudo pip install aiml
 ```
 
 ## Para executar o chatterbot rode a seguinte linha de comando:
 ```
-  sudo python wostraus.py
+  sudo python main.py
+```
+
+Agora você deve ir para seu navegador e acessar o caminho que apareceu no web service. Provavelmente ser:
+```
+0
 ```
 
 ## Algumas considerações:
 
 - Não digite as perguntas com ? (ponto de interrogação);
-- Se você ficar perdido digite ajuda, que será retornado uma lista
-de comandos disponíveis para utilizar.
+
 
 OBS: Este projeto é um protótipo, melhorias futuras podem ser implementadas,
 qualquer sugestão ou crítica mande um email para marcoslima.xv@gmail.com
