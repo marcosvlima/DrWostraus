@@ -16,19 +16,15 @@ else:
 
 app = Flask(__name__)
 
-@app.route('/send', methods=['GET', 'POST'])
-def send():
+@app.route('/', methods=['GET', 'POST'])
+def index():
     if request.method == 'POST':
         message = request.form['mensagem']
 
-        if message == "sair":
-            exit()
+        bot_response = kernel.respond(message)
+        #print bot_response
 
-        else:
-            bot_response = kernel.respond(message)
-            #print bot_response
-
-        return render_template('index.html', bot_response = bot_response)
+        return render_template('index.html', bot_response = bot_response, human_mensage = message)
 
 
     return render_template('index.html')

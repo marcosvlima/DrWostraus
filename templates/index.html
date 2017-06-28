@@ -8,41 +8,45 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 
   <body class="website-mode">
-  <nav class="teal lighten-2">
-   <div class="nav-wrapper">
-     <a href="#" class="brand-logo">Logo</a>
-     <ul id="nav-mobile" class="right hide-on-med-and-down">
-       <li><a href="sass.html">Sass</a></li>
-       <li><a href="badges.html">Components</a></li>
-       <li><a href="collapsible.html">JavaScript</a></li>
-     </ul>
-   </div>
- </nav>
-
+    <nav class="teal lighten-2">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo">Dr Wostraus</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sobre</a></li>
+          <li><a href="badges.html">Autores</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <div id="container">
       <div class="content page">
 
-        <form method="POST" action="/send">
-        <div class="row">
+        <form method="POST" action="/">
+          <div class="row">
             <form class="col s12">
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="textarea1" class="materialize-textarea" type="text" name="mensagem"></input>
-                  <label for="textarea1">Digite sua mensagem</label>
+                  <input id="textarea1" class="materialize-textarea" type="text" name="mensagem" placeholder="Digite sua Mensagem"></input>
                 </div>
               </div>
-              <input type="submit" value="submit" class="waves-effect waves-light btn meu-btn"></input>
+              <input id="button1" type="submit" label="Enviar" class="waves-effect waves-light btn meu-btn"></input>
             </form>
           </div>
         </form>
 
-        <!--
-        <form method="POST" action="/send">
-          <input type="text" name="age">
-          <input type="submit" value="submit">
-        </form>
-  -->
+        <div class=human>
+          <div class="chip">
+            <img src="static/person-outline-filled.png">
+              Humano
+          </div>
+        </div>
+
+        <div class="human-question">
+          <div>
+            {{ human_mensage }}
+          </div>
+        </div>
+
         <div class=wostraus>
           <div class="chip">
             <img src="/static/drWostraus.png">
@@ -60,12 +64,22 @@
     </div>
   </body>
 
-
 </html>
 
 <style>
 .meu-btn{
   margin: 0px 0px 0px 40px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    line-height: 32px;
+}
+
+.brand-logo{
+  margin: 0px 0px 0px 10px;
 }
 
 .wostraus-answer{
@@ -74,6 +88,18 @@
   font-size: 1rem;
   line-height: 200%;
   text-align: justify;
+}
+
+.human-question{
+  margin: 5px 30px 0px 170px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.human{
+  margin: 100px 0px 0px 32px;
 }
 
 .wostraus{
