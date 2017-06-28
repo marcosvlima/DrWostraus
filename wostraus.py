@@ -1,4 +1,6 @@
 #coding: utf-8
+## Bot na versão 1.0 apenas terminal
+
 
 import aiml
 import os

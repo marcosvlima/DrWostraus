@@ -2,6 +2,13 @@
 <!-- basic_chat.aiml -->
 
     <category>
+        <pattern>IA</pattern>
+        <template>
+              Inteligência Artificil é minha área, sobre o que você quer falar?
+        </template>
+    </category>
+
+    <category>
         <pattern>OLÁ</pattern>
         <template>
           <random>
@@ -9,6 +16,29 @@
               <li>Oi amigo, posso ajudar em algo?</li>
               <li>Prazer Dr. Wostraus. Você precisa de alguma ajuda?</li>
               <li>Prazer em lhe conhecer, você precisa de ajuda?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OLA</pattern>
+        <template>
+          <random>
+              <li>Olá, o que lhe traz aqui?</li>
+              <li>Oi amigo, posso ajudar em algo?</li>
+              <li>Prazer Dr. Wostraus. Você precisa de alguma ajuda?</li>
+              <li>Prazer em lhe conhecer, você precisa de ajuda?</li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DESCULPA</pattern>
+        <template>
+          <random>
+              <li>Tudo bem, vamos deixar isso de lado ;D</li>
+              <li>:D</li>
+              <li>Vamos trocar de asssunto ? Vamos falar sobre Redes Neurais</li>
           </random>
         </template>
     </category>
@@ -202,6 +232,41 @@
     </category>
 
     <category>
+     <pattern>CHATTERBOTS</pattern>
+     <template>
+     Chatbot (ou chatterbot) é um programa de computador que tenta simular um ser humano na conversação com as pessoas. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um programa de computador. Após o envio de perguntas em linguagem natural, o programa consulta uma base de conhecimento e em seguida fornece uma resposta que tenta imitar o comportamento humano.
+     </template>
+    </category>
+
+    <category>
+     <pattern>* CHATTERBOTS</pattern>
+     <template>
+     Chatbot (ou chatterbot) é um programa de computador que tenta simular um ser humano na conversação com as pessoas. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um programa de computador. Após o envio de perguntas em linguagem natural, o programa consulta uma base de conhecimento e em seguida fornece uma resposta que tenta imitar o comportamento humano.
+     </template>
+    </category>
+
+    <category>
+     <pattern>* CHATBOTS</pattern>
+     <template>
+     Chatbot (ou chatterbot) é um programa de computador que tenta simular um ser humano na conversação com as pessoas. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um programa de computador. Após o envio de perguntas em linguagem natural, o programa consulta uma base de conhecimento e em seguida fornece uma resposta que tenta imitar o comportamento humano.
+     </template>
+    </category>
+
+    <category>
+     <pattern>CHATBOTS</pattern>
+     <template>
+     Chatbot (ou chatterbot) é um programa de computador que tenta simular um ser humano na conversação com as pessoas. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um programa de computador. Após o envio de perguntas em linguagem natural, o programa consulta uma base de conhecimento e em seguida fornece uma resposta que tenta imitar o comportamento humano.
+     </template>
+    </category>
+
+    <category>
+     <pattern>BOT</pattern>
+     <template>
+        eu
+     </template>
+    </category>
+
+    <category>
      <pattern>DEFINIÇÃO ALGORITMOS GENÉTICOS</pattern>
      <template>
        Algoritmos Genéticos (AG) são implementados como uma simulação de computador em que uma população de representações abstratas de solução é selecionada em busca de soluções melhores. A evolução geralmente se inicia a partir de um conjunto de soluções criado aleatoriamente e é realizada por meio de gerações. A cada geração, a adaptação de cada solução na população é avaliada, alguns indivíduos são selecionados para a próxima geração, e recombinados ou mutados para formar uma nova população. A nova população então é utilizada como entrada para a próxima iteração do algoritmo.
@@ -221,6 +286,14 @@
 
     <category>
      <pattern>REDES NEURAIS</pattern>
+     <template>
+       Redes Neurais Artificiais são técnicas computacionais que apresentam um modelo matemático inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento através da experiência. Uma grande rede neural artificial pode ter centenas ou milhares de unidades de processamento; já o cérebro de um mamífero pode ter muitos bilhões de neurônios ;).
+       Se você quiser saber mais sobre isso me pergunte sobre PROCESSOS DE APRENDIZAGEM.
+     </template>
+    </category>
+
+    <category>
+     <pattern>* REDES NEURAIS</pattern>
      <template>
        Redes Neurais Artificiais são técnicas computacionais que apresentam um modelo matemático inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento através da experiência. Uma grande rede neural artificial pode ter centenas ou milhares de unidades de processamento; já o cérebro de um mamífero pode ter muitos bilhões de neurônios ;).
        Se você quiser saber mais sobre isso me pergunte sobre PROCESSOS DE APRENDIZAGEM.
@@ -429,9 +502,82 @@
     <category>
      <pattern>* AJUDA</pattern>
      <template>
-       Você pode me perguntar algum conceito ou técnica de Inteligência Artificial,
-       ou digite ajuda.
+      <random>
+        <li>
+          Você pode me perguntar algum conceito ou técnica de Inteligência Artificial,
+          por exemplo, o que são Redes Neurais.
+        </li>
+        <li>
+          Parece que alguem esta perdido aqui, vamos lá, me pergunte algo , por exemplo:
+          Quem foi Alan Turing
+        </li>
+      </random>
      </template>
     </category>
+
+    <category>
+     <pattern>AJUDA</pattern>
+     <template>
+      <random>
+        <li>
+          Você pode me perguntar algum conceito ou técnica de Inteligência Artificial,
+          por exemplo, o que são Redes Neurais.
+        </li>
+        <li>
+          Parece que alguem esta perdido aqui, vamos lá, me pergunte algo , por exemplo:
+          Quem foi Alan Turing
+        </li>
+      </random>
+     </template>
+    </category>
+
+    <category>
+     <pattern>LEGAL</pattern>
+     <template>
+      <random>
+        <li>
+          legal né, mas e ai você sabe o que é Algoritmos Genéticos ?
+        </li>
+        <li>
+          Você parace bem intessado, ja ouviu falar na Teoria dos Jogos ?
+        </li>
+      </random>
+     </template>
+    </category>
+
+    <category>
+     <pattern>TEORIA DOS JOGOS</pattern>
+     <template>
+       A teoria dos jogos é uma teoria matemática criada para se modelar
+       fenômenos que podem ser observados quando dois ou mais “agentes de decisão” se
+       interagem entre si.
+     </template>
+    </category>
+
+    <category>
+     <pattern>* TEORIA DOS JOGOS</pattern>
+     <template>
+       A teoria dos jogos é uma teoria matemática criada para se modelar
+       fenômenos que podem ser observados quando dois ou mais “agentes de decisão” se
+       interagem entre si.
+     </template>
+    </category>
+
+    <category>
+     <pattern>NÃO ENTENDI</pattern>
+     <template>
+       <random>
+         <li>Desculpa ainda estou em faze de teste, posso não saber tudo</li>
+         <li>=\</li>
+         <li>Será que sou eu o problema ?</li>
+         <li>Pelo menos eu tentei</li>
+         <li>Acho que esta na hora de uma pausa o que acha ? </li>
+       </random>
+     </template>
+    </category>
+
+
+
+
 
 </aiml>

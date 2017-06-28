@@ -1,3 +1,4 @@
+#coding: utf-8
 from flask import Flask, render_template, request
 
 import aiml
@@ -22,7 +23,8 @@ def index():
         message = request.form['mensagem']
 
         bot_response = kernel.respond(message)
-        #print bot_response
+        if (bot_response == ""):
+            bot_response = 'Não entendo isso ainda, você pode ser mais específico ?'
 
         return render_template('index.html', bot_response = bot_response, human_mensage = message)
 
