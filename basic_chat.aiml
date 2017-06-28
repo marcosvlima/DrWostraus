@@ -227,7 +227,7 @@
     <category>
      <pattern>ALGORITMOS GENÉTICOS</pattern>
      <template>
-       Você quer uma DEFINIÇÃO DE AG (ALGORITMOS GENÉTICOS) ou COMO FUNCIONAM OS ALGOTIMOS GENÉTICOS
+       Algoritmos Genéticos (AG) são implementados como uma simulação de computador em que uma população de representações abstratas de solução é selecionada em busca de soluções melhores. A evolução geralmente se inicia a partir de um conjunto de soluções criado aleatoriamente e é realizada por meio de gerações. A cada geração, a adaptação de cada solução na população é avaliada, alguns indivíduos são selecionados para a próxima geração, e recombinados ou mutados para formar uma nova população. A nova população então é utilizada como entrada para a próxima iteração do algoritmo.
      </template>
     </category>
 
@@ -274,7 +274,7 @@
     </category>
 
     <category>
-     <pattern>COMO FUNCIOAM OS ALGORITMOS GENÉTICOS</pattern>
+     <pattern>COMO FUNCIONAM OS ALGORITMOS GENÉTICOS</pattern>
      <template>
        Todo Algoritmo Genético tem os seguintes componentes principais:
        Função-objetivo -  é o objeto de nossa otimização. Pode ser um problema de otimização, um conjunto de teste para identificar os indivíduos mais aptos entre uma população.
@@ -575,9 +575,5 @@
        </random>
      </template>
     </category>
-
-
-
-
 
 </aiml>

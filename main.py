@@ -31,6 +31,13 @@ def index():
 
     return render_template('index.html')
 
+@app.route('/about', methods=['GET', 'POST'])
+def about():
+    return "Em construção . . ."
+
+@app.route('/autores', methods=['GET', 'POST'])
+def autores():
+    return "Em construção . . ."
 
 if __name__ == "__main__":
     app.run(debug=True)
